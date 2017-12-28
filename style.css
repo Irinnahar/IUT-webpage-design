@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+p {
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    line-height: 19px;
+}
+:focus {
+	outline:0;
+    outline-offset: 0!important;
+}
+h1,h2,h3{
+    font-weight: 500;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+button {
+    margin: 13px 0;
+    border-radius: 4px;
+    border: none;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    color: dimgray;
+}
+ul{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	line-height: 20px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.head-content, .campus-body-content {
+    background-image: url(assets/images/mainbackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/*logo and title of the website*/
+.hero-container,.academic-wrappper, .campus-wrappper, .footer-wrap, #subfooter-wrap {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+#logo {
+    width: 30%;
+    display: inline-flex;
+}
+#logo img{
+    width: 65px;
+    height: 65px;
+}
+h1#title {
+    margin: 0;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 24px;
+}
+span#title {
+    color: #009D4B;
+}
+/*navigation serach top part of the header*/
+#navigation-search {
+    text-align: right;
+    color: #b1b0ae;
+}
+p#nav-icons {
+    font-size: 18px;
+    margin: 0 1px;
+    display: inline-flex;
+    background: #4a4437;
+    cursor: pointer;
+}
+#nav-icons i {
+    padding: 8px 13px;
+}
+input[type="search"] {
+    background: #4a4437;
+    border: none;
+    padding: 10px;
+    width: 140px;
+    color: #b1b0ae;
+}
+
+/*navbar design*/
+.navbar {
+    width: 69%;
+    display: inline-block;
+}
+.navbar ul {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+.navbar li {
+    padding: 10px 0 10px 35px;
+}
+.navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.navbar a:hover {
+    border-bottom: 2px solid;
+}
+/*welcome content design*/
+.welcome-content {
+    padding: 25px 0;
+    display: inline-flex;
+}
+section#slider {
+    width: 65%;
+    display: inline-block;
+}
+#slider-img {
+    width: 740px;
+    height: 510px;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+}
+
+/*welcome notes for right content of the page*/
+#welcome-note {
+    padding: 0 30px;
+}
+
+span#welcome-title {
+    color: #009D4B;
+}
+#notices {
+    margin-top: 16px;
+}
+#notice-title {
+    padding: 12px 30px;
+    background: #009D4B;
+    color: #fff;
+    margin-bottom: 0;
+}
+#notice-list {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,.4);
+}
+#notice-list li {
+    padding: 15px 30px;
+    border-bottom: 1px solid gainsboro;
+}
+span#notice-date {
+    margin-right: 20px;
+}
+#notice-list button {
+    margin-left: 30px;
+}
+/*academic-body-container*/
+.academic-body-content {
+    background: #8f8e8e;
+}
+.academic-wrappper {
+    display: flex;
+}
+section#department-introduction{
+    width: 27%;
+}
+section#department-list, section#department-news{
+	width: 38%;
+}
+#department-introduction, #department-list {
+    padding: 40px 0;
+}
+#department-introduction p {
+    padding-right: 35px;
+    margin-bottom: 20px;
+}
+#department-list ul{
+    margin-right: 30px;
+}
+#department-list li, #campus-club-list li {
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 7px;
+    color: #8F8E8E;
+    cursor: pointer;
+    background: #fff;
+}
+#department-list img, #campus-club-list img {
+    max-height: 52px;
+    width: auto;
+    height: 100%;
+}
+#department-list span, #campus-club-list span {
+    width: 100%;
+    padding: 16px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#department-news h3 {
+    padding: 40px 30px 0;
+}
+/*campus life wrapper*/
+.campus-body-content{
+	background-image: url(assets/images/activity.jpg);
+	/*background-size: contain;*/
+}
+.campus-wrappper {
+    display: flex;
+    padding: 85px 0;
+}
+section#campus-club-list {
+    width: 50%;
+    display: inline-block;
+    margin: 0 30px;
+}
+#campus-club-list li {
+    display: inline-flex;
+    width: 265px;
+    margin-right: 20px;
+    background: none;
+}
+#campus-introduction {
+    width: 25%;
+}
+#campus-club-list span{
+    background: rgba(255,255,255,.3);
+    color: #000;
+    font-weight: 600;
+}
+#useful-links {
+    width: 20%;
+}
+section#useful-links li{
+    display: inline-flex;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+#useful-links img {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+#useful-links a {
+    text-decoration: none;
+    color: #fff;
+}
+ 
+/*.campus-wrappper {
+    display: flex;
+}*/
+/*footer*/
+.footer {
+    background: #00b3be;
+}
+.footer-list-col {
+    width: 74%;
+    display: inline-flex;
+}
+.footer-list-col section {
+    width: 20%;
+    margin-right: 33px;
+}
+.footer-list-col2 {
+    display: inline-grid;
+    width: 23%;
+    padding-left: 20px;
+    border-left: 1px solid darkgray;
+}
+#searchbar-footer input[type="search"] {
+    background: white;
+    float: left;
+}
+#searchbar-footer i.fa.fa-search {
+    background: #b2b2b2;
+    font-size: 17px;
+    padding: 9px;
+}
+section.social-site-list {
+    margin: 15px 0;
+}
+.social-site-list a {
+    font-size: 22px;
+    margin-right: 20px;
+}
+.footer-wrap {
+    padding: 40px 0;
+}
+/*sub-footer design*/
+.sub-footer {
+    background: #015b5b;
+    padding: 10px 0;
+}
